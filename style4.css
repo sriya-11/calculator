@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg-7-full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: blur(50%);
+}
+#div1{
+    position: relative;
+    float: left;
+    width: 48%;
+    height: 100%;
+}
+#div2{
+    margin-top: -13px;
+    position: relative;
+    float: right;
+    width: 48%;
+    height: 100%;
+}
+.wrapper{
+    margin-top: 90px;
+    border: 2px solid black;
+    border-radius: 10px;
+    backdrop-filter:blur(30px);
+    box-shadow: 10px 10px 50px rgb(35, 33, 33);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.form{
+    left: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 550;
+}
+.icon{
+    position: relative;
+    left:-33px;
+    top: 7px;
+}
+input,select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 4px;
+}
+.wrapper #hi{
+     width: 250px;;
+}
+#feedback{
+    margin-top: 10px;
+    height:100px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#gender,#subject{
+    position: relative;
+    top: 10px;
+}
+button{
+   width: 60px;
+   font-size: 15px;
+   background-color: rgb(210, 191, 191);
+}

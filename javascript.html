@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="input" id="input">
+    <input type="text" value="input" class="inp">
+    <input type="text" value="input" class="inp">
+    <input type="text" value="input" class="inp">
+    <input type="text" value="input" class="inp">
+    <h1 id="heading">head1</h1>
+    <h2 class="head" id="h1">hello</h2>
+    <button onclick="sum(1,4)">click</button>
+    <script>
+        let arr=[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20]];
+        for(let i=0;i<arr.length;i++){
+            for(let j=0;j<arr[i].length;j++){
+                console.log(i+""+j,arr[i][j]);
+            }
+            console.log("\n");
+        }
+        function sum(a,b){
+            for(let i=0;i<4;i++){
+                console.log(a+b);
+            }
+        }
+        let x=document.getElementById("input");
+        console.log(x);
+        let y=document.getElementsByClassName("inp");
+        console.log(y);
+        let z=document.getElementsByTagName("input");
+        console.log(z);
+        let a=document.getElementsByTagName("h1");
+        console.log(a);
+      /*  let object=[
+            {
+                name:sriya,
+                roll:40,
+                age:20
+            }
+        ]
+        console.log(object[0]);*/
+    </script>
+</body>
+</html>
